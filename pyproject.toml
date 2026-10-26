@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "clipview"
+version = "1.1.0"
+description = "A searchable clipboard history"
+authors = [{name = "Swayam Shakya"}]
+requires-python = ">=3.10"
+dependencies = ["PySide6>=6.7,<7", "PyMySQL>=1.1,<2", "psutil>=5.9,<8"]
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+[project.scripts]
+clipview = "clipview.app:main"
+[tool.setuptools.packages.find]
+include = ["clipview*"]
