@@ -1,4 +1,4 @@
-# ClipView 1.1
+# [ClipView](https://requiemdoomed.github.io/ClickView/)
 
 **Find that line you copied.** A searchable clipboard history by **Swayam Shakya**.
 
