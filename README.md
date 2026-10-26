@@ -1,7 +1,5 @@
 # [ClipView](https://requiemdoomed.github.io/ClickView/)
 
-**Find that line you copied.** A searchable clipboard history by **Swayam Shakya**.
-
 ClipView keeps useful text close: code fragments, class notes, messages, and the little things you would otherwise have to recreate. The Python desktop app saves clipboard changes while running. The responsive browser demo lets you try the same workflow with explicitly pasted text.
 
 ![ClipView browser demo](docs/browser-demo.png)
